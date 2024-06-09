@@ -7,7 +7,6 @@ namespace HeroBattleAPI.BusinessLogic
     public class Arena
     {
         private readonly List<Hero> _heroes;
-        private readonly Random _random = new Random();
         public Guid Id { get; } = Guid.NewGuid();
         public BattleHistory History { get; } = new BattleHistory();
         public Boolean ArenaCompleted { get; set; } = false;
