@@ -1,0 +1,11 @@
+@HeroBattleAPI_HostAddress = http://localhost:5173
+
+GET {{HeroBattleAPI_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{HeroBattleAPI_HostAddress}}/todos/1
+Accept: application/json
+
+###
